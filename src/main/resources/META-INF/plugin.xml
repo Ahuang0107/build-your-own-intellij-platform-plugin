@@ -15,4 +15,10 @@
         <listener class="com.example.plugins.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="NotificationAction_ID" class="com.example.plugins.NotificationAction" text="Notification"
+                description="Notification">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
