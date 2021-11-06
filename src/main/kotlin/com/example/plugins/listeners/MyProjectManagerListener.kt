@@ -1,9 +1,9 @@
-package com.github.ahuang0107.buildyourownintellijplatformplugin.listeners
+package com.example.plugins.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.ahuang0107.buildyourownintellijplatformplugin.services.MyProjectService
+import com.example.plugins.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

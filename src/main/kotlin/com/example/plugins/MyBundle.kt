@@ -1,4 +1,4 @@
-package com.github.ahuang0107.buildyourownintellijplatformplugin
+package com.example.plugins
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

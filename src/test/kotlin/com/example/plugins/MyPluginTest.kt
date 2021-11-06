@@ -1,4 +1,4 @@
-package com.github.ahuang0107.buildyourownintellijplatformplugin
+package com.example.plugins
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile

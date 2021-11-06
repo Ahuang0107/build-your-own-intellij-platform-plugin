@@ -1,7 +1,7 @@
-package com.github.ahuang0107.buildyourownintellijplatformplugin.services
+package com.example.plugins.services
 
 import com.intellij.openapi.project.Project
-import com.github.ahuang0107.buildyourownintellijplatformplugin.MyBundle
+import com.example.plugins.MyBundle
 
 class MyProjectService(project: Project) {
 

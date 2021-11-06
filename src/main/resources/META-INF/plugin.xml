@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.ahuang0107.buildyourownintellijplatformplugin</id>
-    <name>build-your-own-intellij-platform-plugin</name>
-    <vendor>ahuang0107</vendor>
+    <id>com.example.plugins</id>
+    <name>TemplatePlugin</name>
+    <vendor>Elase</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.ahuang0107.buildyourownintellijplatformplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.ahuang0107.buildyourownintellijplatformplugin.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.example.plugins.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.example.plugins.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.ahuang0107.buildyourownintellijplatformplugin.listeners.MyProjectManagerListener"
+        <listener class="com.example.plugins.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
